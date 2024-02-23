@@ -1,1 +1,1 @@
-# What is a component in react? 
+# What is the React Component?
