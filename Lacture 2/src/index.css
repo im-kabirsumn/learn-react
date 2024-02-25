@@ -1,4 +1,4 @@
-/* *,
+*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -29,5 +29,32 @@ video {
 }
 
 .container {
-  padding: 4em;
-} */
+  margin-inline: auto;
+  width: min(90%, 1240px);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+}
+
+.card {
+  background: #ddd;
+  color: #222;
+  padding: 25px 15px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.site-link {
+  background: rgb(250, 177, 0);
+  display: inline-block;
+  padding: 15px 40px;
+  border-radius: 20px;
+}
+
+.site-link a {
+  text-decoration: none;
+  color: #222;
+}
