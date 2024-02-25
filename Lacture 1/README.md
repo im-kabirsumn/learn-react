@@ -1,8 +1,3 @@
-# React + Vite
+# What is the React Component?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can think of a React component as any HTML element or block in JSX format. It can be a simple button, an unordered list, or an ordered list. any HTML block that can be reusable and manageable and it's written in JSX. it is declared in a function and called a functional component. in convention, the function name starts with a capital letter. 
