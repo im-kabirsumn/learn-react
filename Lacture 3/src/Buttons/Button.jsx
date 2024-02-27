@@ -1,4 +1,4 @@
-
+import button from "./button.module.css";
 
 const Button = () => {
   const styles = {
@@ -13,7 +13,7 @@ const Button = () => {
 
       <button className="button">This is external CSS style example</button>
       <button style={styles}>This is internal CSS style example</button>
-      <button className="button">This is module CSS style example</button>
+      <button className={button.button}>This is module CSS style example</button>
     </>
   );
 };
