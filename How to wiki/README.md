@@ -1,4 +1,3 @@
-# "How to do" stuff. 
+# "How to do" stuff
 
-### How to work with images in React
-
+## How to work with images in React
